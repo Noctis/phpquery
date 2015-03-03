@@ -143,7 +143,7 @@ class DOMDocumentWrapper {
 		$addDocumentCharset = false;
 		if ($documentCharset) {
 			$charset = $documentCharset;
-			$markup = $this->charsetFixHTML($markup);
+			//$markup = $this->charsetFixHTML($markup);
 		} else if ($requestedCharset) {
 			$charset = $requestedCharset;
 		}
